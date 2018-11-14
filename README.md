@@ -10,10 +10,10 @@ import serialrelay
 myrelay = serialrelay.SerialRelay()
 
 ## To close the relay:
-myrelay.close()
+myrelay.close_relay()
 
 ## To open the relay:
-myrelay.open()
+myrelay.open_relay()
 
 ## To close for 3 seconds and open again:
 myrelay.toggle()
